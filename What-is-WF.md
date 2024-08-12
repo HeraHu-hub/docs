@@ -11,7 +11,7 @@
 <tr><td rowspan="2" style="vertical-align:middle;">	快速执行	</td><td>	执行脚本	</td><td>	可通过手动编写、本地上传，或引用业务/公共脚本的方式进行批量脚本执行。	</td></tr>
 <tr><td style="vertical-align:middle;">	文件传输	</td><td>	支持本地上传或从服务器上选择源文件两种方式，满足"一对多"、"多对多"、"多对一"等多种分发文件场景。	</td></tr>
 <tr><td rowspan="7" style="vertical-align:middle;">	业务管理	</td><td style="vertical-align:middle;">	作业	</td><td>	提供作业编排功能，支持用户将多个脚本执行、文件分发或人工确认步骤组装成作业模板，并按使用场景衍生多个对应的执行方案；提供调试功能来满足作业调试场景，支持使用标签对作业进行分类管理。	</td></tr>
-<tr><td style="vertical-align:middle;">执行方案</td><td> 汇总展示所有作业的执行方案列表 </td></tr>
+<tr><td style="vertical-align:middle;">执行方案</td><td> 汇总展示所有作业的工作流列表 </td></tr>
 <tr><td style="vertical-align:middle;">脚本</td><td> 提供脚本的版本管理功能，包括版本增删改查、版本日志、版本对比、版本状态变更（上线/下线/禁用）等。 </td></tr>
 <tr><td style="vertical-align:middle;">定时</td><td> 支持将作业执行方案设置成单次或周期执行的定时任务。 </td></tr>
 <tr><td style="vertical-align:middle;">执行历史</td><td> 记录所有通过作业平台页面或 API 调用的方式发起的脚本执行、文件分发、作业和定时任务操作信息，提供任务重做和日志回溯的能力。 </td></tr>
