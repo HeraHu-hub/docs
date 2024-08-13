@@ -21,3 +21,17 @@
 <tr><td style="vertical-align:middle;">	用户角色	</td><td>	区分用户角色，用于管理用户的脚本和作业的权限。 </td></tr>
 <tr><td style="vertical-align:middle;">	全局设置	</td><td>	作业平台管理员功能，支持配置消息通知渠道、历史数据存储策略、账号命名规则和高危语句规则设置。	</td></tr>
 </tbody></table>
+
+## 产品架构
+
+产品架构是Vue + Flask + Ansible + Mysql
+![系统架构图](https://github.com/user-attachments/assets/1f2e52c4-6222-401b-b647-5b854ca2d08f)
+
+
+讨论点：ansible是用jumpserver内置ansible，主机列表从jumpserver拉取，还是WF搭建一个ansible，主机列表从cmdb获取。
+
+## 迭代计划
+
+一期（8月）：实现基本功能的原子操作。
+二期（9月）：实现将每个原子操作的任务封装成插件，作为作业编排的组件。
+三期（10月）：实现插件组合成工作流作业模板。
