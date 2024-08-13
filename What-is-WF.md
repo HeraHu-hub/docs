@@ -27,9 +27,7 @@
 - 产品架构是Vue + Flask + Ansible + Mysql
 ![系统架构图](https://github.com/user-attachments/assets/1f2e52c4-6222-401b-b647-5b854ca2d08f)
 
-<span style="color: red;">讨论点：ansible是用jumpserver内置ansible，主机列表从jumpserver拉取，还是WF搭建一个ansible，主机列表从cmdb获取。</span>
-
-
+*讨论点：ansible是用jumpserver内置ansible，主机列表从jumpserver拉取，还是WF搭建一个ansible，主机列表从cmdb获取。*
 
 ## 迭代计划
 
