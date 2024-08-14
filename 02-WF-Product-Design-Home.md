@@ -1,5 +1,5 @@
 ## 功能设计
-- 首页
+### 首页
 ![Home](https://github.com/user-attachments/assets/9daea089-5b98-400c-a882-1ea2ea2c8e32)
 
 1. 个人信息
